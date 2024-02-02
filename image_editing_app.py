@@ -43,6 +43,7 @@ def main():
         enhancer = ImageEnhance.Brightness(our_image)
         enhanced_image = enhancer.enhance(rate)
         st.image(enhanced_image)
+
         
       
          
